@@ -1,1 +1,5 @@
-print("Ola, " + input("Digite o seu nome:") + "!")
+nome = input("Digite o seu nome: ")
+salario = int(input("Digite o seu salário: "))
+porcentagem_bonus = int(input("Digite a porcentagem do bônus: "))
+valor_bonus = ((salario * porcentagem_bonus)/100)
+print("Parabens", nome,"o valor do seu bônus é: ",valor_bonus)
